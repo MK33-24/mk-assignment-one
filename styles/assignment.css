@@ -104,6 +104,11 @@ nav li{
 .testimonials {
   text-align: center;
   padding: 50px 20px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-top: 20px;
+
 }
 
 .testimonials h2 {
@@ -163,12 +168,7 @@ nav li{
   color: #888;
   font-size: 12px;
 }
-.testimonials{
-      font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  margin: 200px 150px;
-}
+
 
 
 
@@ -241,6 +241,7 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+    font-size: 20px;
 }
 .fotter-button{
   border-radius: 10px;
@@ -280,6 +281,11 @@ footer input[type="text"],footer input[type="email"],footer textarea{
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+}
+form label{
+  margin: 10px 0px 5px;
+  font-size: 14px;
+  
 }
 
 .footer-links a {
